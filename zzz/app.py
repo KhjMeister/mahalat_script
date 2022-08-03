@@ -16,10 +16,10 @@ class SqliteDataBase(threading.Thread):
         try:
             sqliteConnection = sqlite3.connect('data.db')
             sqlite_create_table_query = '''CREATE TABLE chats (
-                                            requ text UNIQUE,
-                                            balad text ,
-                                            lon text,
-                                            lat text  );'''
+                                            mapir text UNIQUE,
+                                            lng text,
+                                            lat text,
+                                            neshan text  );'''
 
             cursor = sqliteConnection.cursor()
             print("Successfully Connected to SQLite")
@@ -35,17 +35,17 @@ class SqliteDataBase(threading.Thread):
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
 
-    def insert_chats(self, requ, lon, lat):
+    def insert_chats(self, mapir, lng, lat):
         try:
             sqliteConnection = sqlite3.connect('data.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
 
             sqlite_insert_with_param = """INSERT INTO Chats
-                                            (requ, lon,lat) 
+                                            (mapir, lng,lat) 
                                             VALUES (?, ?,?);"""
 
-            data_tuple = (requ, lon, lat)
+            data_tuple = (mapir, lng, lat)
             cursor.execute(sqlite_insert_with_param, data_tuple)
             sqliteConnection.commit()
             print("Python Variables inserted successfully into chats table")
@@ -63,7 +63,7 @@ class SqliteDataBase(threading.Thread):
         try:
             sqliteConnection = sqlite3.connect('data.db')
             cur = sqliteConnection.cursor()
-            sql = 'DELETE FROM chats WHERE requ=?'
+            sql = 'DELETE FROM chats WHERE mapir=?'
 
             cur.execute(sql, (requ,))
             sqliteConnection.commit()
@@ -71,13 +71,13 @@ class SqliteDataBase(threading.Thread):
         except sqlite3.Error as error:
             print("Failed to delete from table ", error)
 
-    def update_requ(self, requ,lon,lat):
+    def update_requ(self, requ,lng,lat):
         try:
-            sqliteConnection = sqlite3.connect('data.db')
+            sqliteConnection = sqlite3.connect('data_balad_lst.db')
             cur = sqliteConnection.cursor()
-            sql = 'UPDATE chats SET lon=?, lat=? WHERE requ=?'
+            sql = 'UPDATE chats SET lng=?, lat=? WHERE neibor=?'
 
-            cur.execute(sql, (lon,lat,requ))
+            cur.execute(sql, (lng,lat,requ))
             sqliteConnection.commit()
 
         except sqlite3.Error as error:
@@ -85,7 +85,7 @@ class SqliteDataBase(threading.Thread):
     
     def readSqliteTable(self):
         try:
-            sqliteConnection = sqlite3.connect('data.db')
+            sqliteConnection = sqlite3.connect('data_balad_lst.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
             sqlite_select_query = """SELECT * from chats"""
@@ -119,13 +119,6 @@ class Neighbors(threading.Thread):
         response_dict = json.loads(response.text)
         return response_dict
 
-     def getBalad(self, lat,lng):
-
-        response = requests.post("https://api.neshan.org/v4/reverse?lng=51.3838594063817&lat=35.7180732506571", json={
-                                 'text': requ, "$select": 'neighborhood', "$filter": 'province eq تهران'}, headers=self.headers)
-        response_dict = json.loads(response.text)
-        return response_dict
-
 
 sys.stdin.reconfigure(encoding='utf-8')
 sys.stdout.reconfigure(encoding='utf-8')
@@ -149,11 +142,13 @@ for data in results:
     try:
         respons = neighbor_obj.postRequest(data[0])
         neighbor = data[0]
+        print(respons)
         lat = respons['value'][0]['geom']['coordinates'][0]
         lang = respons['value'][0]['geom']['coordinates'][1]
 
         sqlit_obj.update_requ(
             neighbor, lat, lang)
+        
   
     except:
         pass
