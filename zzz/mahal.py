@@ -1,5 +1,18 @@
 #Import libraries
-import requests ,sys ,csv
+import sqlite3
+import threading
+import requests
+import sys
+import json
+import re
+import balad
+url = "https://map.ir/search/v2"
+
+sqli_obj = balad.SqliteDataBase()
+
+sqli_obj.create_balad_table()
+
+
 
 from bs4 import BeautifulSoup
 sys.stdin.reconfigure(encoding='utf-8')
@@ -14,9 +27,5 @@ soup = BeautifulSoup(page.content,"html.parser")
 i = 1
 for el in soup.find_all("li"):
     print(el.get_text())
-    with open('ImplementTest.csv',"w", newline='',encoding='utf-8') as csv_file:
-        writer = csv.writer(csv_file)
-        row = [el.get_text(), i]
-        writer.writerow(row)
-        csv_file.close()
-    i = i + 1
+    sqli_obj.insert_balad_neibor_data(el.get_text())
+    
