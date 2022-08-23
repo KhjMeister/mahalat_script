@@ -13,7 +13,7 @@ class Check_start(threading.Thread):
 
     def create_shay_tables(self):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay.db')
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
             sql_shay_brand = '''CREATE TABLE shaybrand (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT ,
                                     brand TEXT ,
@@ -44,7 +44,7 @@ class Check_start(threading.Thread):
 
     def insert_shay_brand(self, brand,url):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay.db')
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
 
@@ -65,17 +65,17 @@ class Check_start(threading.Thread):
             if sqliteConnection:
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
-    def insert_shay_model(self, bid,model):
+    def insert_shay_model(self, bid,model,tip):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay.db')
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
 
             sqlite_insert_with_param = """INSERT INTO shaymodel
-                                            (brand_id,model) 
-                                            VALUES (?,?);"""
+                                            (brand_id,model,tip) 
+                                            VALUES (?,?,?);"""
 
-            data_tuple = (bid,model )
+            data_tuple = (bid,model,tip )
             cursor.execute(sqlite_insert_with_param, data_tuple)
             sqliteConnection.commit()
             print("Python Variables inserted successfully into shaybrand table")
@@ -103,7 +103,7 @@ class Check_start(threading.Thread):
 
     def readBrand(self):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay.db')
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
             sqlite_select_query = """SELECT * from shaybrand"""
@@ -119,10 +119,27 @@ class Check_start(threading.Thread):
             if sqliteConnection:
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
+    def readmodel(self):
+        try:
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            cursor = sqliteConnection.cursor()
+            print("Connected to SQLite")
+            sqlite_select_query = """SELECT * from shaymodel"""
+            cursor.execute(sqlite_select_query)
+            records = cursor.fetchall()
 
+            cursor.close()
+            return records
+
+        except sqlite3.Error as error:
+            print("Failed to read data from sqlite table", error)
+        finally:
+            if sqliteConnection:
+                sqliteConnection.close()
+                print("The SQLite connection is closed")
     def find_one(self, url):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay.db')
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
             sql = 'SELECT id from shaybrand WHERE url=?'
@@ -138,4 +155,21 @@ class Check_start(threading.Thread):
             if sqliteConnection:
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
+    def update_model(self, b_brand,bid):
+        try:
+            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            cursor = sqliteConnection.cursor()
+            print("Connected to SQLite")
+            sql = ''' UPDATE shaymodel
+                      SET brand_id = ? 
+                      WHERE brand_id = ?'''
 
+            cursor.execute(sql,(b_brand ,bid))
+            sqliteConnection.commit()
+            cursor.close()
+        except sqlite3.Error as error:
+            print("Failed to read data from sqlite table", error)
+        finally:
+            if sqliteConnection:
+                sqliteConnection.close()
+                print("The SQLite connection is closed")
