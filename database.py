@@ -11,17 +11,16 @@ class Check_start(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
 
-    def create_shay_tables(self):
+    def create_divar_tables(self):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
-            sql_shay_brand = '''CREATE TABLE shaybrand (
+            sqliteConnection = sqlite3.connect('brandtipdivar2.db')
+            sql_shay_brand = '''CREATE TABLE divarbrand (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT ,
-                                    brand TEXT ,
-                                    url TEXT 
+                                    brand TEXT 
                                     );'''
-            sqli_shay_model = '''CREATE TABLE shaymodel (
+            sqli_shay_model = '''CREATE TABLE divarmodel (
                                     id INTEGER PRIMARY KEY AUTOINCREMENT  ,
-                                    brand_id REFERENCES shaybrand(id)  ,
+                                    brand TEXT  ,
                                     model TEXT,
                                     tip TEXT );'''
 
@@ -42,20 +41,20 @@ class Check_start(threading.Thread):
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
 
-    def insert_shay_brand(self, brand,url):
+    def insert_divar_brand(self, brand):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brandtipdivar.db')
             cursor = sqliteConnection.cursor()
-            print("Connected to SQLite")
+            # print("Connected to SQLite")
 
-            sqlite_insert_with_param = """INSERT INTO shaybrand
-                                            (brand,url) 
-                                            VALUES (?,?);"""
+            sqlite_insert_with_param = """INSERT INTO divarbrand
+                                            (brand) 
+                                            VALUES (?);"""
 
-            data_tuple = (brand,url )
+            data_tuple = (brand, )
             cursor.execute(sqlite_insert_with_param, data_tuple)
             sqliteConnection.commit()
-            print("Python Variables inserted successfully into shaybrand table")
+            # print("Python Variables inserted successfully into divarbrand table")
 
             cursor.close()
 
@@ -65,20 +64,20 @@ class Check_start(threading.Thread):
             if sqliteConnection:
                 sqliteConnection.close()
                 print("The SQLite connection is closed")
-    def insert_shay_model(self, bid,model,tip):
+    def insert_divar_model(self, brand,model,tip):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brandtipdivar2.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
 
-            sqlite_insert_with_param = """INSERT INTO shaymodel
-                                            (brand_id,model,tip) 
+            sqlite_insert_with_param = """INSERT INTO divarmodel
+                                            (brand,model,tip) 
                                             VALUES (?,?,?);"""
 
-            data_tuple = (bid,model,tip )
+            data_tuple = (brand,model,tip )
             cursor.execute(sqlite_insert_with_param, data_tuple)
             sqliteConnection.commit()
-            print("Python Variables inserted successfully into shaybrand table")
+            print("Python Variables inserted successfully into model table")
 
             cursor.close()
 
@@ -103,10 +102,10 @@ class Check_start(threading.Thread):
 
     def readBrand(self):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brantipdivar1.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
-            sqlite_select_query = """SELECT * from shaybrand"""
+            sqlite_select_query = """SELECT * from divrbarnd"""
             cursor.execute(sqlite_select_query)
             records = cursor.fetchall()
 
@@ -121,10 +120,10 @@ class Check_start(threading.Thread):
                 print("The SQLite connection is closed")
     def readmodel(self):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brandtipdivar.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
-            sqlite_select_query = """SELECT * from shaymodel"""
+            sqlite_select_query = """SELECT * from divarmodel"""
             cursor.execute(sqlite_select_query)
             records = cursor.fetchall()
 
@@ -139,10 +138,10 @@ class Check_start(threading.Thread):
                 print("The SQLite connection is closed")
     def find_one(self, url):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brandtipdivar1.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
-            sql = 'SELECT id from shaybrand WHERE url=?'
+            sql = 'SELECT id from divarbrand WHERE url=?'
             cursor.execute(sql, (url,))
             records = cursor.fetchall()
 
@@ -157,10 +156,10 @@ class Check_start(threading.Thread):
                 print("The SQLite connection is closed")
     def update_model(self, b_brand,bid):
         try:
-            sqliteConnection = sqlite3.connect('brantipshay2.db')
+            sqliteConnection = sqlite3.connect('brandtipdivar1.db')
             cursor = sqliteConnection.cursor()
             print("Connected to SQLite")
-            sql = ''' UPDATE shaymodel
+            sql = ''' UPDATE divarmodel
                       SET brand_id = ? 
                       WHERE brand_id = ?'''
 

@@ -1,0 +1,1393 @@
+{"Model": [
+    {
+      "id": 481,
+      "brand": 89,
+      "title": "جولیتا",
+      "title_en": "Giulietta",
+      "url_slug": "alfaromeogiulietta"
+    },
+    {
+      "id": 482,
+      "brand": 89,
+      "title": "میتو",
+      "title_en": "MiTo",
+      "url_slug": "alfaromeomito"
+    },
+    {
+      "id": 486,
+      "brand": 91,
+      "title": "3",
+      "title_en": "3",
+      "url_slug": "mg3"
+    },
+    {
+      "id": 488,
+      "brand": 91,
+      "title": "360",
+      "title_en": "360",
+      "url_slug": "mg360"
+    },
+    {
+      "id": 489,
+      "brand": 91,
+      "title": "550",
+      "title_en": "550",
+      "url_slug": "mg550"
+    },
+    {
+      "id": 490,
+      "brand": 91,
+      "title": "6",
+      "title_en": "6",
+      "url_slug": "mg6"
+    },
+    {
+      "id": 492,
+      "brand": 91,
+      "title": "GS",
+      "title_en": "GS",
+      "url_slug": "mggs"
+    },
+    {
+      "id": 493,
+      "brand": 91,
+      "title": "GT",
+      "title_en": "GT",
+      "url_slug": "mggt"
+    },
+    {
+      "id": 503,
+      "brand": 100,
+      "title": "206 SD",
+      "title_en": "206-SD",
+      "url_slug": "peugeot206sd"
+    },
+    {
+      "id": 512,
+      "brand": 138,
+      "title": "معمولی",
+      "title_en": "Basic",
+      "url_slug": "denabasic"
+    },
+    {
+      "id": 513,
+      "brand": 138,
+      "title": "پلاس",
+      "title_en": "Plus"
+    },
+    {
+      "id": 514,
+      "brand": 139,
+      "title": "EL",
+      "title_en": "EL"
+    },
+    {
+      "id": 516,
+      "brand": 141,
+      "title": "SE",
+      "title_en": "SE"
+    },
+    {
+      "id": 517,
+      "brand": 141,
+      "title": "LX",
+      "title_en": "EF7"
+    },
+    {
+      "id": 523,
+      "brand": 94,
+      "title": "C3 کراس",
+      "title_en": "C3-Cross"
+    },
+    {
+      "id": 524,
+      "brand": 94,
+      "title": "H230",
+      "title_en": "H230"
+    },
+    {
+      "id": 525,
+      "brand": 94,
+      "title": "H220",
+      "title_en": "H220"
+    },
+    {
+      "id": 526,
+      "brand": 94,
+      "title": "H320",
+      "title_en": "H320"
+    },
+    {
+      "id": 527,
+      "brand": 94,
+      "title": "H330",
+      "title_en": "H330"
+    },
+    {
+      "id": 528,
+      "brand": 94,
+      "title": "V5",
+      "title_en": "V5"
+    },
+    {
+      "id": 531,
+      "brand": 95,
+      "title": "کلاس C",
+      "title_en": "C-Class"
+    },
+    {
+      "id": 532,
+      "brand": 95,
+      "title": "کلاس CL",
+      "title_en": "CL-Class"
+    },
+    {
+      "id": 533,
+      "brand": 95,
+      "title": "کلاس CLA",
+      "title_en": "CLA-Class"
+    },
+    {
+      "id": 536,
+      "brand": 95,
+      "title": "کلاس CLS",
+      "title_en": "CLS-Class"
+    },
+    {
+      "id": 537,
+      "brand": 95,
+      "title": "کلاس E",
+      "title_en": "E-Class"
+    },
+    {
+      "id": 539,
+      "brand": 95,
+      "title": "کلاس E کروک",
+      "title_en": "E-Class (Convertible)"
+    },
+    {
+      "id": 540,
+      "brand": 95,
+      "title": "کلاس E کوپه",
+      "title_en": "E-Class (Coupe)"
+    },
+    {
+      "id": 542,
+      "brand": 95,
+      "title": "کلاس S",
+      "title_en": "S-Class"
+    },
+    {
+      "id": 546,
+      "brand": 96,
+      "title": "X1",
+      "title_en": "X1"
+    },
+    {
+      "id": 547,
+      "brand": 96,
+      "title": "X3",
+      "title_en": "X3"
+    },
+    {
+      "id": 548,
+      "brand": 96,
+      "title": "X4",
+      "title_en": "X4"
+    },
+    {
+      "id": 549,
+      "brand": 96,
+      "title": "X5",
+      "title_en": "X5"
+    },
+    {
+      "id": 550,
+      "brand": 96,
+      "title": "X6",
+      "title_en": "X6"
+    },
+    {
+      "id": 551,
+      "brand": 96,
+      "title": "Z4",
+      "title_en": "Z4"
+    },
+    {
+      "id": 552,
+      "brand": 96,
+      "title": "سری 1 هاچ بک",
+      "title_en": "1 Series-Hatchback"
+    },
+    {
+      "id": 553,
+      "brand": 96,
+      "title": "سری 1 کروک",
+      "title_en": "1 Series-Convertible"
+    },
+    {
+      "id": 554,
+      "brand": 96,
+      "title": "سری 1 کوپه",
+      "title_en": "1 Series-Coupe"
+    },
+    {
+      "id": 555,
+      "brand": 96,
+      "title": "سری 2 کوپه",
+      "title_en": "2 Series-Coupe"
+    },
+    {
+      "id": 557,
+      "brand": 96,
+      "title": "سری 3 کروک",
+      "title_en": "3 Series-Convertible"
+    },
+    {
+      "id": 558,
+      "brand": 96,
+      "title": "سری 3 کوپه",
+      "title_en": "3 Series-Coupe"
+    },
+    {
+      "id": 559,
+      "brand": 96,
+      "title": "سری 4 گرن کوپه",
+      "title_en": "4 Series-Gran Coupe"
+    },
+    {
+      "id": 560,
+      "brand": 96,
+      "title": "سری 4 کروک",
+      "title_en": "4 Series-Convertible"
+    },
+    {
+      "id": 561,
+      "brand": 96,
+      "title": "سری 4 کوپه",
+      "title_en": "4 Series-Coupe"
+    },
+    {
+      "id": 562,
+      "brand": 96,
+      "title": "سری 5 سدان",
+      "title_en": "5 Series-Sedan"
+    },
+    {
+      "id": 564,
+      "brand": 96,
+      "title": "سری 6 کروک",
+      "title_en": "6 Series-Convertible"
+    },
+    {
+      "id": 566,
+      "brand": 96,
+      "title": "سری 7",
+      "title_en": "7 Series"
+    },
+    {
+      "id": 593,
+      "brand": 100,
+      "title": "508",
+      "title_en": "508"
+    },
+    {
+      "id": 595,
+      "brand": 100,
+      "title": "206",
+      "title_en": "206"
+    },
+    {
+      "id": 597,
+      "brand": 100,
+      "title": "207",
+      "title_en": "207"
+    },
+    {
+      "id": 598,
+      "brand": 100,
+      "title": "405",
+      "title_en": "405"
+    },
+    {
+      "id": 599,
+      "brand": 100,
+      "title": "پارس",
+      "title_en": "Pars"
+    },
+    {
+      "id": 600,
+      "brand": 101,
+      "title": "911",
+      "title_en": "911"
+    },
+    {
+      "id": 601,
+      "brand": 101,
+      "title": "باکستر",
+      "title_en": "Boxster"
+    },
+    {
+      "id": 602,
+      "brand": 101,
+      "title": "پانامرا",
+      "title_en": "Panamera"
+    },
+    {
+      "id": 603,
+      "brand": 101,
+      "title": "ماکان",
+      "title_en": "Macan"
+    },
+    {
+      "id": 604,
+      "brand": 101,
+      "title": "کاین",
+      "title_en": "Cayenne"
+    },
+    {
+      "id": 605,
+      "brand": 101,
+      "title": "کیمن S",
+      "title_en": "Cayman-S"
+    },
+    {
+      "id": 606,
+      "brand": 102,
+      "title": "C-HR",
+      "title_en": "C-HR"
+    },
+    {
+      "id": 608,
+      "brand": 102,
+      "title": "آریون",
+      "title_en": "Aurion"
+    },
+    {
+      "id": 610,
+      "brand": 102,
+      "title": "پرادو چهار در",
+      "title_en": "Prado-4door"
+    },
+    {
+      "id": 611,
+      "brand": 102,
+      "title": "پرادو دو در",
+      "title_en": "Prado-2door"
+    },
+    {
+      "id": 612,
+      "brand": 102,
+      "title": "پریوس",
+      "title_en": "Prius"
+    },
+    {
+      "id": 613,
+      "brand": 102,
+      "title": "راوفور",
+      "title_en": "RAV4"
+    },
+    {
+      "id": 618,
+      "brand": 102,
+      "title": "هایلوکس دو کابین",
+      "title_en": "Hilux-Double Cab"
+    },
+    {
+      "id": 619,
+      "brand": 102,
+      "title": "کرولا",
+      "title_en": "Corolla"
+    },
+    {
+      "id": 620,
+      "brand": 102,
+      "title": "کمری",
+      "title_en": "Camry"
+    },
+    {
+      "id": 622,
+      "brand": 102,
+      "title": "یاریس صندوق دار",
+      "title_en": "Yaris-Sedan"
+    },
+    {
+      "id": 625,
+      "brand": 103,
+      "title": "J5",
+      "title_en": "J5"
+    },
+    {
+      "id": 626,
+      "brand": 103,
+      "title": "S3",
+      "title_en": "S3"
+    },
+    {
+      "id": 627,
+      "brand": 103,
+      "title": "S5",
+      "title_en": "S5"
+    },
+    {
+      "id": 629,
+      "brand": 104,
+      "title": "امگرند 7",
+      "title_en": "Emgrand 7"
+    },
+    {
+      "id": 631,
+      "brand": 104,
+      "title": "امگرند X7",
+      "title_en": "Emgrand X7"
+    },
+    {
+      "id": 632,
+      "brand": 105,
+      "title": "CS35 (مونتاژ)",
+      "title_en": "CS35-Assembled"
+    },
+    {
+      "id": 635,
+      "brand": 106,
+      "title": "H30 کراس",
+      "title_en": "H30 Cross"
+    },
+    {
+      "id": 643,
+      "brand": 109,
+      "title": "پارس تندر",
+      "title_en": "Pars Tondar"
+    },
+    {
+      "id": 646,
+      "brand": 109,
+      "title": "تندر90",
+      "title_en": "Tondar 90"
+    },
+    {
+      "id": 650,
+      "brand": 109,
+      "title": "داستر",
+      "title_en": "Duster"
+    },
+    {
+      "id": 651,
+      "brand": 109,
+      "title": "ساندرو",
+      "title_en": "Sandero"
+    },
+    {
+      "id": 652,
+      "brand": 109,
+      "title": "ساندرو استپ وی",
+      "title_en": "Sandero-Stepway"
+    },
+    {
+      "id": 653,
+      "brand": 109,
+      "title": "سفران",
+      "title_en": "Safrane"
+    },
+    {
+      "id": 654,
+      "brand": 109,
+      "title": "سیمبل",
+      "title_en": "Symbol"
+    },
+    {
+      "id": 655,
+      "brand": 109,
+      "title": "فلوئنس",
+      "title_en": "Fluence"
+    },
+    {
+      "id": 660,
+      "brand": 109,
+      "title": "کپچر",
+      "title_en": "Captur"
+    },
+    {
+      "id": 661,
+      "brand": 109,
+      "title": "کولیوس",
+      "title_en": "Koleos"
+    },
+    {
+      "id": 665,
+      "brand": 111,
+      "title": "تیوولی",
+      "title_en": "Tivoli"
+    },
+    {
+      "id": 682,
+      "brand": 136,
+      "title": "صندوق دار",
+      "title_en": "Sedan"
+    },
+    {
+      "id": 683,
+      "brand": 136,
+      "title": "هاچ بک",
+      "title_en": "Hatchback"
+    },
+    {
+      "id": 685,
+      "brand": 140,
+      "title": "EX",
+      "title_en": "EX"
+    },
+    {
+      "id": 692,
+      "brand": 114,
+      "title": "گراند ویتارا (مونتاژ)",
+      "title_en": "Grand Vitara-Assembled"
+    },
+    {
+      "id": 699,
+      "brand": 117,
+      "title": "پاسات",
+      "title_en": "Passat"
+    },
+    {
+      "id": 701,
+      "brand": 117,
+      "title": "تیگوان",
+      "title_en": "Tiguan"
+    },
+    {
+      "id": 725,
+      "brand": 120,
+      "title": "اپتیما",
+      "title_en": "Optima"
+    },
+    {
+      "id": 727,
+      "brand": 120,
+      "title": "اسپورتیج",
+      "title_en": "Sportage"
+    },
+    {
+      "id": 728,
+      "brand": 120,
+      "title": "پیکانتو",
+      "title_en": "Picanto"
+    },
+    {
+      "id": 730,
+      "brand": 120,
+      "title": "ریو هاچ بک",
+      "title_en": "Rio-Hatchback"
+    },
+    {
+      "id": 731,
+      "brand": 120,
+      "title": "سراتو",
+      "title_en": "Cerato"
+    },
+    {
+      "id": 733,
+      "brand": 120,
+      "title": "سراتو کوپ",
+      "title_en": "Cerato-Coupe"
+    },
+    {
+      "id": 734,
+      "brand": 120,
+      "title": "سورنتو",
+      "title_en": "Sorento"
+    },
+    {
+      "id": 764,
+      "brand": 123,
+      "title": "CT",
+      "title_en": "CT"
+    },
+    {
+      "id": 766,
+      "brand": 123,
+      "title": "ES",
+      "title_en": "ES"
+    },
+    {
+      "id": 769,
+      "brand": 123,
+      "title": "IS",
+      "title_en": "IS"
+    },
+    {
+      "id": 773,
+      "brand": 123,
+      "title": "LX",
+      "title_en": "LX"
+    },
+    {
+      "id": 774,
+      "brand": 123,
+      "title": "NX",
+      "title_en": "NX"
+    },
+    {
+      "id": 775,
+      "brand": 123,
+      "title": "NX هیبرید",
+      "title_en": "NX-Hybrid"
+    },
+    {
+      "id": 776,
+      "brand": 123,
+      "title": "RX",
+      "title_en": "RX"
+    },
+    {
+      "id": 779,
+      "brand": 124,
+      "title": "620",
+      "title_en": "620"
+    },
+    {
+      "id": 780,
+      "brand": 124,
+      "title": "820",
+      "title_en": "820"
+    },
+    {
+      "id": 781,
+      "brand": 124,
+      "title": "X50",
+      "title_en": "X50"
+    },
+    {
+      "id": 782,
+      "brand": 124,
+      "title": "X60",
+      "title_en": "X60"
+    },
+    {
+      "id": 783,
+      "brand": 125,
+      "title": "گرن توریسمو",
+      "title_en": "GranTurismo"
+    },
+    {
+      "id": 784,
+      "brand": 125,
+      "title": "گرن کبریو",
+      "title_en": "GranCabrio"
+    },
+    {
+      "id": 786,
+      "brand": 125,
+      "title": "کواتروپورته",
+      "title_en": "Quattroporte"
+    },
+    {
+      "id": 787,
+      "brand": 134,
+      "title": "X33s",
+      "title_en": "X33s"
+    },
+    {
+      "id": 789,
+      "brand": 134,
+      "title": "110",
+      "title_en": "110"
+    },
+    {
+      "id": 790,
+      "brand": 134,
+      "title": "110S",
+      "title_en": "110S"
+    },
+    {
+      "id": 791,
+      "brand": 134,
+      "title": "315 صندوق دار",
+      "title_en": "315-Sedan"
+    },
+    {
+      "id": 793,
+      "brand": 134,
+      "title": "315 هاچبک",
+      "title_en": "Hatchback-315"
+    },
+    {
+      "id": 796,
+      "brand": 134,
+      "title": "530",
+      "title_en": "530"
+    },
+    {
+      "id": 797,
+      "brand": 134,
+      "title": "550",
+      "title_en": "550"
+    },
+    {
+      "id": 798,
+      "brand": 134,
+      "title": "X22",
+      "title_en": "X22"
+    },
+    {
+      "id": 800,
+      "brand": 134,
+      "title": "X33",
+      "title_en": "X33"
+    },
+    {
+      "id": 803,
+      "brand": 137,
+      "title": "آریزو 5",
+      "title_en": "Arrizo 5"
+    },
+    {
+      "id": 805,
+      "brand": 137,
+      "title": "آریزو 5T",
+      "title_en": "Arrizo 5T"
+    },
+    {
+      "id": 806,
+      "brand": 137,
+      "title": "تیگو 5",
+      "title_en": "Tiggo 5"
+    },
+    {
+      "id": 810,
+      "brand": 127,
+      "title": "جدید صندوق دار  (مونتاژ) 3",
+      "title_en": "3 Sedan-Assembled (New)"
+    },
+    {
+      "id": 811,
+      "brand": 127,
+      "title": "3 جدید هاچ بک",
+      "title_en": "3-Hatchback (New)"
+    },
+    {
+      "id": 815,
+      "brand": 128,
+      "title": "ASX",
+      "title_en": "ASX"
+    },
+    {
+      "id": 816,
+      "brand": 128,
+      "title": "اوتلندر",
+      "title_en": "Outlander"
+    },
+    {
+      "id": 817,
+      "brand": 128,
+      "title": "پاجرو چهار در",
+      "title_en": "Pajero 4Door"
+    },
+    {
+      "id": 818,
+      "brand": 128,
+      "title": "پاجرو دو در",
+      "title_en": "Pajero 2Door"
+    },
+    {
+      "id": 820,
+      "brand": 128,
+      "title": "لنسر",
+      "title_en": "Lancer"
+    },
+    {
+      "id": 821,
+      "brand": 128,
+      "title": "میراژ",
+      "title_en": "Mirage"
+    },
+    {
+      "id": 822,
+      "brand": 129,
+      "title": "ایکس تریل",
+      "title_en": "X-Trail"
+    },
+    {
+      "id": 829,
+      "brand": 129,
+      "title": "جوک",
+      "title_en": "Juke"
+    },
+    {
+      "id": 834,
+      "brand": 129,
+      "title": "ماکسیما",
+      "title_en": "Maxima"
+    },
+    {
+      "id": 837,
+      "brand": 130,
+      "title": "S5",
+      "title_en": "S5"
+    },
+    {
+      "id": 838,
+      "brand": 130,
+      "title": "S7",
+      "title_en": "S7"
+    },
+    {
+      "id": 840,
+      "brand": 131,
+      "title": "آکورد",
+      "title_en": "Accord"
+    },
+    {
+      "id": 841,
+      "brand": 131,
+      "title": "سیویک",
+      "title_en": "Civic"
+    },
+    {
+      "id": 843,
+      "brand": 132,
+      "title": "i20",
+      "title_en": "i20"
+    },
+    {
+      "id": 844,
+      "brand": 132,
+      "title": "i20 (مونتاژ)",
+      "title_en": "i20-Assembled"
+    },
+    {
+      "id": 848,
+      "brand": 132,
+      "title": "آزرا (گرنجور)",
+      "title_en": "Azera (Grandeur)"
+    },
+    {
+      "id": 849,
+      "brand": 132,
+      "title": "آوانته",
+      "title_en": "Avante"
+    },
+    {
+      "id": 850,
+      "brand": 132,
+      "title": "النترا",
+      "title_en": "Elantra"
+    },
+    {
+      "id": 851,
+      "brand": 132,
+      "title": "اکسنت",
+      "title_en": "Accent"
+    },
+    {
+      "id": 853,
+      "brand": 132,
+      "title": "توسان (ix35)",
+      "title_en": "Tucson (ix35)"
+    },
+    {
+      "id": 854,
+      "brand": 132,
+      "title": "جنسیس",
+      "title_en": "Genesis"
+    },
+    {
+      "id": 855,
+      "brand": 132,
+      "title": "جنسیس کوپه",
+      "title_en": "Genesis-Coupe"
+    },
+    {
+      "id": 856,
+      "brand": 132,
+      "title": "سانتافه (ix45)",
+      "title_en": "Santa Fe (ix45)"
+    },
+    {
+      "id": 858,
+      "brand": 132,
+      "title": "سوناتا",
+      "title_en": "Sonata"
+    },
+    {
+      "id": 859,
+      "brand": 132,
+      "title": "وراکروز (ix55)",
+      "title_en": "Veracruz (ix55)"
+    },
+    {
+      "id": 861,
+      "brand": 132,
+      "title": "ولستر",
+      "title_en": "Veloster"
+    },
+    {
+      "id": 864,
+      "brand": 133,
+      "title": "C70 کروک",
+      "title_en": "C70-Convertible"
+    },
+    {
+      "id": 865,
+      "brand": 133,
+      "title": "V40",
+      "title_en": "V40"
+    },
+    {
+      "id": 867,
+      "brand": 133,
+      "title": "XC90",
+      "title_en": "XC90"
+    },
+    {
+      "id": 872,
+      "brand": 96,
+      "title": "سری 3 سدان",
+      "title_en": "3 Series-Sedan"
+    },
+    {
+      "id": 876,
+      "brand": 95,
+      "title": "کلاس GLA",
+      "title_en": "GLA-Class"
+    },
+    {
+      "id": 880,
+      "brand": 102,
+      "title": "کمری هیبرید",
+      "title_en": "Camry-Hybrid"
+    },
+    {
+      "id": 881,
+      "brand": 102,
+      "title": "C-HR هیبرید",
+      "title_en": "C-HR (Hybrid)"
+    },
+    {
+      "id": 883,
+      "brand": 102,
+      "title": "هایلوکس دو کابین بلند",
+      "title_en": "Hilux-Extra Cab"
+    },
+    {
+      "id": 884,
+      "brand": 139,
+      "title": "LX",
+      "title_en": "LX"
+    },
+    {
+      "id": 887,
+      "brand": 141,
+      "title": "سورن",
+      "title_en": "Soren"
+    },
+    {
+      "id": 891,
+      "brand": 120,
+      "title": "اپتیما هیبرید",
+      "title_en": "Optima-Hybrid"
+    },
+    {
+      "id": 893,
+      "brand": 120,
+      "title": "ریو سدان",
+      "title_en": "Rio-Sedan"
+    },
+    {
+      "id": 895,
+      "brand": 128,
+      "title": "اوتلندر PHEV",
+      "title_en": "Outlander PHEV"
+    },
+    {
+      "id": 897,
+      "brand": 132,
+      "title": "سوناتا هیبرید",
+      "title_en": "Sonata-Hybrid"
+    },
+    {
+      "id": 898,
+      "brand": 102,
+      "title": "لندکروز چهار در",
+      "title_en": "Land Cruiser-4door"
+    },
+    {
+      "id": 899,
+      "brand": 137,
+      "title": "تیگو 7",
+      "title_en": "Tiggo 7"
+    },
+    {
+      "id": 900,
+      "brand": 109,
+      "title": "مگان (مونتاژ)",
+      "title_en": "Megane-Assembled"
+    },
+    {
+      "id": 902,
+      "brand": 120,
+      "title": "سراتو (مونتاژ)",
+      "title_en": "Cerato-Assembled"
+    },
+    {
+      "id": 903,
+      "brand": 132,
+      "title": "اکسنت (مونتاژ)",
+      "title_en": "Accent-Assembled"
+    },
+    {
+      "id": 904,
+      "brand": 109,
+      "title": "تلیسمان",
+      "title_en": "Talisman"
+    },
+    {
+      "id": 907,
+      "brand": 117,
+      "title": "گلف",
+      "title_en": "Golf"
+    },
+    {
+      "id": 908,
+      "brand": 100,
+      "title": "2008",
+      "title_en": "2008"
+    },
+    {
+      "id": 910,
+      "brand": 100,
+      "title": "207 SD",
+      "title_en": "207 SD"
+    },
+    {
+      "id": 912,
+      "brand": 91,
+      "title": "RX5",
+      "title_en": "RX5"
+    },
+    {
+      "id": 924,
+      "brand": 127,
+      "title": "2 مونتاژ",
+      "title_en": "2-Assembled"
+    },
+    {
+      "id": 933,
+      "brand": 147,
+      "title": "H2",
+      "title_en": "H2"
+    },
+    {
+      "id": 934,
+      "brand": 147,
+      "title": "H6",
+      "title_en": "H6"
+    },
+    {
+      "id": 935,
+      "brand": 147,
+      "title": "H9",
+      "title_en": "H9"
+    },
+    {
+      "id": 942,
+      "brand": 105,
+      "title": "CS 35",
+      "title_en": "CS 35"
+    },
+    {
+      "id": 943,
+      "brand": 132,
+      "title": "النترا (مونتاژ)",
+      "title_en": "Elantra-Assembled"
+    },
+    {
+      "id": 944,
+      "brand": 134,
+      "title": "X55",
+      "title_en": "X55"
+    },
+    {
+      "id": 952,
+      "brand": 96,
+      "title": "سری i",
+      "title_en": "i Series"
+    },
+    {
+      "id": 956,
+      "brand": 153,
+      "title": "سابرینا هاچ بک مونتاژ",
+      "title_en": "Sabrina-Hatchback (Assembled)"
+    },
+    {
+      "id": 960,
+      "brand": 154,
+      "title": "B30",
+      "title_en": "B30"
+    },
+    {
+      "id": 961,
+      "brand": 154,
+      "title": "B50F",
+      "title_en": "B50F"
+    },
+    {
+      "id": 962,
+      "brand": 154,
+      "title": "B50",
+      "title_en": "B50"
+    },
+    {
+      "id": 978,
+      "brand": 102,
+      "title": "یاریس هاچ بک",
+      "title_en": "Yaris-Hatchback"
+    },
+    {
+      "id": 988,
+      "brand": 103,
+      "title": "J4",
+      "title_en": "J4"
+    },
+    {
+      "id": 1005,
+      "brand": 161,
+      "title": "آریو",
+      "title_en": "Ario"
+    },
+    {
+      "id": 1006,
+      "brand": 161,
+      "title": "Z300",
+      "title_en": "Z300"
+    },
+    {
+      "id": 1008,
+      "brand": 140,
+      "title": "اتوماتیک",
+      "title_en": "Automatic"
+    },
+    {
+      "id": 1009,
+      "brand": 140,
+      "title": "SX",
+      "title_en": "SX"
+    },
+    {
+      "id": 1013,
+      "brand": 115,
+      "title": "C3",
+      "title_en": "C3"
+    },
+    {
+      "id": 1025,
+      "brand": 143,
+      "title": "ساده",
+      "title_en": "Basic"
+    },
+    {
+      "id": 1026,
+      "brand": 143,
+      "title": "R",
+      "title_en": "R"
+    },
+    {
+      "id": 1027,
+      "brand": 143,
+      "title": "اتوماتیک فول پلاس",
+      "title_en": "Plus-Full Option"
+    },
+    {
+      "id": 1033,
+      "brand": 166,
+      "title": "رنجرور",
+      "title_en": "Range Rover"
+    },
+    {
+      "id": 1034,
+      "brand": 166,
+      "title": "رنجرور ایووک",
+      "title_en": "Range Rover-Evoque"
+    },
+    {
+      "id": 1036,
+      "brand": 166,
+      "title": "رنجرور اسپرت",
+      "title_en": "Range Rover-Sport"
+    },
+    {
+      "id": 1042,
+      "brand": 167,
+      "title": "کوپر",
+      "title_en": "Cooper"
+    },
+    {
+      "id": 1053,
+      "brand": 137,
+      "title": "آریزو 6",
+      "title_en": "Arrizo 6"
+    },
+    {
+      "id": 1057,
+      "brand": 125,
+      "title": "گیبلی‏",
+      "title_en": "Ghibli"
+    },
+    {
+      "id": 1062,
+      "brand": 139,
+      "title": "پلاس",
+      "title_en": "Plus"
+    },
+    {
+      "id": 1063,
+      "brand": 168,
+      "title": "پرایم",
+      "title_en": "Prime"
+    },
+    {
+      "id": 1064,
+      "brand": 169,
+      "title": "G",
+      "title_en": "G"
+    },
+    {
+      "id": 1065,
+      "brand": 140,
+      "title": "S",
+      "title_en": "S"
+    },
+    {
+      "id": 1066,
+      "brand": 111,
+      "title": "تیوولی (مونتاژ)",
+      "title_en": "Tivoli-Assembled"
+    },
+    {
+      "id": 1070,
+      "brand": 124,
+      "title": "X70",
+      "title_en": "X70"
+    },
+    {
+      "id": 1072,
+      "brand": 171,
+      "title": "T8",
+      "title_en": "T8"
+    },
+    {
+      "id": 1073,
+      "brand": 171,
+      "title": "K7",
+      "title_en": "K7"
+    },
+    {
+      "id": 1074,
+      "brand": 172,
+      "title": "پرایم",
+      "title_en": "Prime"
+    },
+    {
+      "id": 1078,
+      "brand": 140,
+      "title": "پلاس",
+      "title_en": "Plus"
+    },
+    {
+      "id": 1080,
+      "brand": 174,
+      "title": "کوپا",
+      "title_en": "Coupa"
+    },
+    {
+      "id": 1082,
+      "brand": 136,
+      "title": "صندوق دار پلاس",
+      "title_en": "PLUS"
+    },
+    {
+      "id": 1084,
+      "brand": 147,
+      "title": "H6 مونتاژ",
+      "title_en": "H6-Assembled"
+    },
+    {
+      "id": 1085,
+      "brand": 175,
+      "title": "K132",
+      "title_en": "K132"
+    },
+    {
+      "id": 1087,
+      "brand": 177,
+      "title": "G01",
+      "title_en": "G01"
+    },
+    {
+      "id": 1088,
+      "brand": 177,
+      "title": "G01F",
+      "title_en": "G01F"
+    },
+    {
+      "id": 1096,
+      "brand": 143,
+      "title": "S",
+      "title_en": "S"
+    },
+    {
+      "id": 1098,
+      "brand": 181,
+      "title": "الیزه",
+      "title_en": "Elize"
+    },
+    {
+      "id": 1100,
+      "brand": 182,
+      "title": "s350",
+      "title_en": "s350"
+    },
+    {
+      "id": 1101,
+      "brand": 183,
+      "title": "کلوت",
+      "title_en": "kalut"
+    },
+    {
+      "id": 1103,
+      "brand": 185,
+      "title": "ایما",
+      "title_en": "Eama"
+    },
+    {
+      "id": 1104,
+      "brand": 186,
+      "title": "Y5",
+      "title_en": "Y5"
+    },
+    {
+      "id": 1106,
+      "brand": 187,
+      "title": "تیگو 7 پرو",
+      "title_en": "Tiggo7pro"
+    },
+    {
+      "id": 1107,
+      "brand": 187,
+      "title": "تیگو 8 پرو",
+      "title_en": "Tiggo8pro"
+    },
+    {
+      "id": 1113,
+      "brand": 187,
+      "title": "تیگو 8",
+      "title_en": "Tiggo8"
+    },
+    {
+      "id": 1115,
+      "brand": 106,
+      "title": "اینرودز",
+      "title_en": "Inroads"
+    }
+]
+}

@@ -1,0 +1,416 @@
+{
+  "Brand": [
+    {
+      "id": 134,
+      "title": "ام وی ام",
+      "title_en": "MVM",
+      "value": 134,
+      "must_used": true
+    },
+    {
+      "id": 100,
+      "title": "پژو",
+      "title_en": "Peugeot",
+      "value": 100,
+      "must_used": true
+    },
+    {
+      "id": 136,
+      "title": "تیبا",
+      "title_en": "Tiba",
+      "value": 136,
+      "must_used": true
+    },
+    {
+      "id": 103,
+      "title": "جک",
+      "title_en": "JAC",
+      "value": 103,
+      "must_used": true
+    },
+    {
+      "id": 138,
+      "title": "دنا",
+      "title_en": "Dena",
+      "value": 138,
+      "must_used": true
+    },
+    {
+      "id": 109,
+      "title": "رنو",
+      "title_en": "Renault",
+      "value": 109,
+      "must_used": true
+    },
+    {
+      "id": 141,
+      "title": "سمند",
+      "title_en": "Samand",
+      "value": 141,
+      "must_used": true
+    },
+    {
+      "id": 120,
+      "title": "کیا",
+      "title_en": "Kia",
+      "value": 120,
+      "must_used": true
+    },
+    {
+      "id": 124,
+      "title": "لیفان",
+      "title_en": "Lifan",
+      "value": 124,
+      "must_used": true
+    },
+    {
+      "id": 132,
+      "title": "هیوندای",
+      "title_en": "Hyundai",
+      "value": 132,
+      "must_used": true
+    },
+    {
+      "id": 89,
+      "title": "آلفارومئو",
+      "title_en": "Alfa Romeo",
+      "value": 89,
+      "must_used": false
+    },
+    {
+      "id": 177,
+      "title": "اس دبلیو ام",
+      "title_en": "SWM",
+      "value": 177,
+      "must_used": false
+    },
+    {
+      "id": 91,
+      "title": "ام جی",
+      "title_en": "MG",
+      "value": 91,
+      "must_used": false
+    },
+    {
+      "id": 153,
+      "title": "بایک",
+      "title_en": "BAIC",
+      "value": 153,
+      "must_used": false
+    },
+    {
+      "id": 94,
+      "title": "برلیانس",
+      "title_en": "Brilliance",
+      "value": 94,
+      "must_used": false
+    },
+    {
+      "id": 154,
+      "title": "بسترن",
+      "title_en": "Besturn",
+      "value": 154,
+      "must_used": false
+    },
+    {
+      "id": 95,
+      "title": "بنز",
+      "title_en": "Mercedes-Benz",
+      "value": 95,
+      "must_used": false
+    },
+    {
+      "id": 96,
+      "title": "بی ام و",
+      "title_en": "BMW",
+      "value": 96,
+      "must_used": false
+    },
+    {
+      "id": 101,
+      "title": "پورشه",
+      "title_en": "Porsche",
+      "value": 101,
+      "must_used": false
+    },
+    {
+      "id": 175,
+      "title": "تارا",
+      "title_en": "Tara",
+      "value": 175,
+      "must_used": false
+    },
+    {
+      "id": 102,
+      "title": "تویوتا",
+      "title_en": "Toyota",
+      "url_slug": "toyota",
+      "value": 102,
+      "must_used": false
+    },
+    {
+      "id": 182,
+      "title": "جی ام سی",
+      "title_en": "JMC",
+      "url_slug": "jmc",
+      "value": 182,
+      "must_used": false
+    },
+    {
+      "id": 104,
+      "title": "جیلی",
+      "title_en": "Geely",
+      "url_slug": "geely",
+      "value": 104,
+      "must_used": false
+    },
+    {
+      "id": 105,
+      "title": "چانگان",
+      "title_en": "Changan",
+      "url_slug": "changan",
+      "value": 105,
+      "must_used": false
+    },
+    {
+      "id": 137,
+      "title": "چری",
+      "title_en": "Chery",
+      "url_slug": "chery",
+      "value": 137,
+      "must_used": false
+    },
+    {
+      "id": 106,
+      "title": "دانگ فنگ",
+      "title_en": "Dongfeng",
+      "url_slug": "dongfeng",
+      "value": 106,
+      "must_used": false
+    },
+    {
+      "id": 186,
+      "title": "دایون",
+      "title_en": "Dayun",
+      "url_slug": "dayun",
+      "value": 186,
+      "must_used": false
+    },
+    {
+      "id": 168,
+      "title": "دیگنیتی",
+      "title_en": "Dignity",
+      "url_slug": "dignity",
+      "value": 168,
+      "must_used": false
+    },
+    {
+      "id": 139,
+      "title": "رانا",
+      "title_en": "Runna",
+      "url_slug": "runna",
+      "value": 139,
+      "must_used": false
+    },
+    {
+      "id": 174,
+      "title": "ریگان",
+      "title_en": "Rigan",
+      "url_slug": "rigan",
+      "value": 174,
+      "must_used": false
+    },
+    {
+      "id": 161,
+      "title": "زوتی",
+      "title_en": "Zotye",
+      "url_slug": "zotye",
+      "value": 161,
+      "must_used": false
+    },
+    {
+      "id": 111,
+      "title": "سانگ یانگ",
+      "title_en": "SsangYong",
+      "url_slug": "ssangyong",
+      "value": 111,
+      "must_used": false
+    },
+    {
+      "id": 140,
+      "title": "ساینا",
+      "title_en": "Saina",
+      "url_slug": "saina",
+      "value": 140,
+      "must_used": false
+    },
+    {
+      "id": 114,
+      "title": "سوزوکی",
+      "title_en": "Suzuki",
+      "url_slug": "suzuki",
+      "value": 114,
+      "must_used": false
+    },
+    {
+      "id": 115,
+      "title": "سیتروئن",
+      "title_en": "Citroen",
+      "url_slug": "citroen",
+      "value": 115,
+      "must_used": false
+    },
+    {
+      "id": 169,
+      "title": "شاهین",
+      "title_en": "Shahin",
+      "url_slug": "shahin",
+      "value": 169,
+      "must_used": false
+    },
+    {
+      "id": 117,
+      "title": "فولکس",
+      "title_en": "Volkswagen",
+      "url_slug": "volkswagen",
+      "value": 117,
+      "must_used": false
+    },
+    {
+      "id": 187,
+      "title": "فونیکس",
+      "title_en": "Fownix",
+      "url_slug": "fownix",
+      "value": 187,
+      "must_used": false
+    },
+    {
+      "id": 172,
+      "title": "فیدلیتی",
+      "title_en": "Fidelity",
+      "url_slug": "fidelity",
+      "value": 172,
+      "must_used": false
+    },
+    {
+      "id": 143,
+      "title": "کوییک",
+      "title_en": "Quick",
+      "url_slug": "quick",
+      "value": 143,
+      "must_used": false
+    },
+    {
+      "id": 171,
+      "title": "کی ام سی",
+      "title_en": "KMC",
+      "url_slug": "kmc",
+      "value": 171,
+      "must_used": false
+    },
+    {
+      "id": 185,
+      "title": "لاماری",
+      "title_en": "lamari",
+      "url_slug": "lamari",
+      "value": 185,
+      "must_used": false
+    },
+    {
+      "id": 123,
+      "title": "لکسوس",
+      "title_en": "Lexus",
+      "url_slug": "lexus",
+      "value": 123,
+      "must_used": false
+    },
+    {
+      "id": 166,
+      "title": "لندرور",
+      "title_en": "Land Rover",
+      "url_slug": "landrover",
+      "value": 166,
+      "must_used": false
+    },
+    {
+      "id": 181,
+      "title": "لوتوس",
+      "title_en": "lotus",
+      "url_slug": "lotus",
+      "value": 181,
+      "must_used": false
+    },
+    {
+      "id": 125,
+      "title": "مازراتی",
+      "title_en": "Maserati",
+      "url_slug": "maserati",
+      "value": 125,
+      "must_used": false
+    },
+    {
+      "id": 127,
+      "title": "مزدا",
+      "title_en": "Mazda",
+      "url_slug": "mazda",
+      "value": 127,
+      "must_used": false
+    },
+    {
+      "id": 128,
+      "title": "میتسوبیشی",
+      "title_en": "Mitsubishi",
+      "url_slug": "mitsubishi",
+      "value": 128,
+      "must_used": false
+    },
+    {
+      "id": 167,
+      "title": "مینی",
+      "title_en": "Mini",
+      "url_slug": "mini",
+      "value": 167,
+      "must_used": false
+    },
+    {
+      "id": 129,
+      "title": "نیسان",
+      "title_en": "Nissan",
+      "url_slug": "nissan",
+      "value": 129,
+      "must_used": false
+    },
+    {
+      "id": 147,
+      "title": "هاوال",
+      "title_en": "Haval",
+      "url_slug": "haval",
+      "value": 147,
+      "must_used": false
+    },
+    {
+      "id": 130,
+      "title": "هایما",
+      "title_en": "Haima",
+      "url_slug": "haima",
+      "value": 130,
+      "must_used": false
+    },
+    {
+      "id": 131,
+      "title": "هوندا",
+      "title_en": "Honda",
+      "url_slug": "honda",
+      "value": 131,
+      "must_used": false
+    },
+    {
+      "id": 133,
+      "title": "ولوو",
+      "title_en": "Volvo",
+      "url_slug": "volvo",
+      "value": 133,
+      "must_used": false
+    }
+  ] 
+}
